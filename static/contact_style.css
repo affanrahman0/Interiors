@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Permanent+Marker&display=swap');
+h1{
+    font-family: 'Anton', sans-serif;
+    font-family: 'Permanent Marker', cursive;
+    color: #d0881b;
+    font-size: 40px;
+}
+.myform{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width:100%;
+}
+.myInput{
+    width: 40%;
+    text-align: center;
+    padding: 6px;
+    margin: 8px;
+    border: 2px solid black;
+    border-radius: 11px;
+}
+.btn{
+    border-radius: 29px;
+    padding: 4px 13px;
+    /* border: 2px solid; */
+    border: 2px solid black;
+    background-color: #cee9c5;
+    color: white;
+    cursor: pointer;
+    margin-bottom: 9px;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    min-height: 90vh;
+    justify-content: center;
+    align-items: center;
+}

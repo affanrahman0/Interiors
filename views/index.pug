@@ -1,0 +1,43 @@
+//- index.pug
+doctype html
+html
+  head
+    title TheInteriors
+    style
+      include ../static/style.css
+  body
+    nav#navbar
+      div#logo
+          img(src="../static/logo3.png", alt="") 
+      ul
+        li #[a(href ="/") Home] 
+        li #[a(href ="/") Contact us] 
+        li #[a(href ="/") Services ]
+        li #[a(href ="/") About us]
+
+    section#introsection 
+        div Welcome to theInteriors  
+        div.txt Find a design from our design gallery 
+        div.txt or book a consultation with a dedicated design expert
+    section#sponsorsection 
+        h1 Our designs
+        div#section
+          div.box 
+            
+            img(src="../static/living.jpg", alt="")
+            h3 Living room designs
+          div.box 
+
+            img(src="../static/bed1.jpg", alt="")
+            h3  Living room designs
+          div.box 
+
+            img(src="../static/bath.jpg", alt="")
+            h3  Living room designs
+          
+
+    section#sponsorsection 
+    footer#footer   
+        |  Copyright &copy; WWW.mymeal.com. All rights reserved!   
+    script
+      include ../static/script.js

@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Parisienne&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Parisienne&family=Tangerine&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+*{
+    padding: 0px;
+    margin: 0px;
+     box-sizing: border-box;  /*no gaps between the boxes */
+}
+#navbar{
+    display: flex;
+    background-color: rgb(98 132 108);
+    padding: 10px;
+    font-family: 'Tangerine', cursive;
+    font-weight: bolder;
+    font-size: 2rem;
+}
+#logo{
+    /* display: flex;
+    align-items: center; 
+    margin: 0px 14px; */
+    margin: 3px 32px;
+}
+#logo img{
+    width: 151px;
+    /* margin: 0px 0px; */
+    height: 136px;
+    padding-left: 18px;
+    padding-top: 31px;
+    padding-bottom: 2px;
+    margin: -52px -80px;
+    /* margin: auto; */
+    /* padding-bottom: 4px; */
+    height: 128px;
+}
+#navbar ul{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center; middle of the page */
+    align-items: center;
+
+}
+
+#navbar li{
+    list-style: none;
+}
+
+#navbar li a{
+    text-decoration: none;
+    padding: 13px 30px;
+    color: aliceblue;
+}
+#navbar li a:hover{
+    color: peachpuff;
+}
+
+#introsection{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 90px;
+    color: #1e3c08;
+    font-weight: bold;
+    /* filter: blur(1px); */
+    font-family: 'Tangerine', cursive;
+    background: center/cover no-repeat url("/static/bg.jpeg") ;
+    background-color: palevioletred;
+    height: 700px; 
+  
+}
+#introsection .txt{
+    font-size: 40px;
+
+}
+.box img{
+    max-width: 100%;
+    max-height: 100%;
+    display: block;
+    padding-bottom: 7px;
+    margin-bottom: 15px;
+}
+
+
+#sponsorsection {
+    background-color: white;
+    height: 328px;
+    /* margin: auto;
+    display: block;*/
+} 
+
+#section{
+    display: flex;
+    flex-direction: row;
+}
+
+#sponsorsection h1 {
+    font-family: 'Playfair Display', serif;
+    text-align: center;
+    font-size: 40px;
+    padding-top: 7px;
+
+}
+
+#footer{
+    background-color: darksalmon;
+    /* height: 100px; */
+    text-align: center;
+}
+
+.box{
+    /* display: inline-block; */
+    /* border: 2px solid black;
+    border-radius: 7px;
+    width: 401px;
+    margin: 22px 7px;
+    height: 203px;
+     */
+     /* //border: 2px solid black;
+    border-radius: 7px; */
+    width: 377px;
+    margin: 22px 23px;
+    height: 192px;
+    box-sizing: border-box;
+    text-align: center;
+    margin-bottom: 9px;
+}
+.box p{
+    font-size: small;
+}
