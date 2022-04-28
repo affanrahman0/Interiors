@@ -53,6 +53,7 @@
     color: peachpuff;
 }
 
+
 #introsection{
     display: flex;
     justify-content: center;
@@ -126,4 +127,7 @@
 }
 .box p{
     font-size: small;
+}
+h3{
+    text-decoration: none;
 }
